@@ -87,7 +87,7 @@
             </h1>
             <h3>
               <iframe
-                src="https://open.spotify.com/playlist/4zAENeWQJojKohWbaG22XN?si=37d88cf64f2b484d"
+                src="https://open.spotify.com/playlist/4zAENeWQJojKohWbaG22XN?si=77c2711cf1744168"
                 width="300"
                 height="380"
                 frameborder="0"
@@ -118,6 +118,13 @@ setInterval(updateTime, 1000);
             </script>
             <h4 style="color: white; font-size: 16px" >
               ~ <span id="datetime"></span> ~
+                            <!--<div id="datedisplay" style="font-size: 10px"></div>
+              <script type="text/JavaScript">
+                 var a = moment.locale("id");
+                 var c = moment().format("LLLL");
+                  var d = moment().seconds();
+                  let p = document.getElementById("datedisplay").innerHTML = c;
+                p.refresh(1000);
             </h4>
           </header>
         </div>
@@ -125,6 +132,16 @@ setInterval(updateTime, 1000);
     </div>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="assets/script.js"></script>
+       <script src="./script.js"></script>
+
+    <!--<iframe
+ src="https://open.spotify.com/embed/playlist/0iuGEtbNlYRHPfzrxotFVI" 
+ width="300" 
+ height="380" 
+ frameborder="0" 
+ allowtransparency="true" 
+ allow="encrypted-media">
+  </iframe> -->
     <script>window.addEventListener('load', function() {
   const welcomeScene = document.querySelector('.welcome-scene');
   setTimeout(function() {
